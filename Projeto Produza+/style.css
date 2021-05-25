@@ -24,13 +24,13 @@
 
 .parte-superior{ 
     color: #47525E;
-    font-size: larger;
+    font-size: 23px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 500px;
     background-color: rgb(235, 235, 235);
-    padding-left: 80px;
-    padding-top: 50px;
-    padding-bottom: 50px
+    padding-left: 160px;
+    padding-top: 80px;
+    padding-bottom: 95px
 }
 
 .parte-inferior { 
@@ -38,14 +38,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     height: 500px;
-    padding-left: 80px;
-    padding-top: 50px;
+    padding-left: 160px;
     background-color: rgb(235, 235, 235);
     border-top-width: 5px;
     border-top-style: dotted;
 }
 .barra-pesquisa {
-    padding-left: 1250px;
+    padding-left: 1200px;
 }
 .thumb1 {
     float: left;
