@@ -1,0 +1,38 @@
+nav {
+    font-size: larger;
+    height: 500px;
+    background-color: rgba(120, 128, 128, 0.212);
+    width: 225px;
+    float: right;
+    border-style: groove;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.menu-principal {
+    float: right;
+}
+
+.menu-principal > ul > li {
+    display: list-item;
+    padding: 8px;
+}
+
+.menu-principal > ul > li:hover {
+    color: rgb(122, 122, 122);
+    border-style: dotted;
+} 
+
+main { 
+    font-size: larger;
+    height: 500px;
+    background-color: rgba(120, 128, 128, 0.212);
+}
+
+footer { 
+    font-size: larger;
+    height: 100px;
+    background-color: bisque;
+    border-top-width: 5px;
+    border-top-style: dotted;
+}
