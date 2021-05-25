@@ -1,38 +1,65 @@
 .menu-principal {
+    color: #47525E;
     padding-top: 500px;
     font-size: larger;
     height: 500px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(235, 235, 235);
     width: 300px;
     float: right;
     border-style: groove;
     border-width: 5px;
 }
-.menu-principal > ul > li {
+.caixa1 {
+    padding: 8px;
+    text-align: center;
+    width: 240px;
+    height: 20px;
+    border-style: dotted;
+    color: #47525E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: list-item;
+}
+.caixa2 {
+    padding: 8px;
+    text-align: center;
+    border-style: dotted;
+    color: #47525E;
+    width: 240px;
+    height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: list-item;
+}
+.menu-principal > ul > a > li {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #47525E;
     display: list-item;
     padding: 8px;
 }
 
-.menu-principal > ul > li:hover {
+.menu-principal > ul > a > li:hover {
     color: rgb(122, 122, 122);
-    border-style: dotted;
 } 
 
 .parte-superior{ 
+    color: #47525E;
     font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 500px;
-    background-color: rgba(211, 211, 211);
+    background-color: rgb(235, 235, 235);
     padding-left: 80px;
     padding-top: 50px;
     padding-bottom: 50px
 }
 
 .parte-inferior { 
+    color: #47525E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     height: 500px;
     padding-left: 80px;
     padding-top: 50px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(235, 235, 235);
     border-top-width: 5px;
     border-top-style: dotted;
 }
