@@ -10,27 +10,48 @@
 <body>
         <nav class="menu-principal">
         <ul>
-            <li>Acessibilidade</li><br> <br>
-            <li>Usuário</li><br> <br>
-            <li>Cursos Específicos</li><br> <br>
-            <li>Cursos Gerais</li><br> <br>
-            <li>Cursos Colaborativos</li><br> <br>
+            <a href="acess.html" target="_self">
+                <li>Acessibilidade</li></a><br> <br>
+            <a href="user.html" target="_self">
+                <li>Usuário</li></a><br> <br>
+            <a href="cursosEsp.html" target="_self">
+                <li>Cursos Específicos</li></a><br> <br>
+            <a href="cursosGer.html" target="_self">
+                <li>Cursos Gerais</li></a><br> <br>
+            <a href="cursosCol.html" target="_self">
+                <li>Cursos Colaborativos</li></a><br> <br>
         </ul>
-        </nav>
-        <nav class="barra-pesquisa">
-            <form name="pesquisa" action="pagina_pesquisa.html" method="POST">
-                Pesquisa: <input type="text" name="search" value=''>
-                <input type="submit" value="Ok">
-            </form>
         </nav>
     <main class="parte-superior">
         <h1>Página de cursos</h1>
         <h2>Em progresso</h2>
-        <h3>Título do curso Título do curso Título do curso</h3>
+        <nav class="barra-pesquisa">
+            <form name="pesquisa" action="pagina_pesquisa.html" method="POST">
+                <input type="text" name="search" value='Pesquisa...'>
+                <input type="submit" value="Ok">
+            </form>
+        </nav>
+            <element class=thumb1>
+                <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+            </element>
+            <element class=thumb2>
+                <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+            </element>
+            <element class=thumb3>
+                <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+            </element>
     </main>
     <main class="parte-inferior">
         <h1>Concluídos</h1>
-        <h2>Título do curso Título do curso Título do curso</h2>
+        <element class=thumb1>
+            <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+        </element>
+        <element class=thumb2>
+            <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+        </element>
+        <element class=thumb3>
+            <img width="350px" src="Thumb.png"><h3>Título do curso</h3>
+        </element>
     </main>
     <footer>
     </footer>

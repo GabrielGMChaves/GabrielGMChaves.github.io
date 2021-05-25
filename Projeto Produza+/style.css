@@ -1,18 +1,13 @@
 .menu-principal {
+    padding: 40px;
     font-size: larger;
     height: 500px;
     background-color: rgba(120, 128, 128, 0.212);
-    width: 225px;
+    width: 200px;
     float: right;
     border-style: groove;
     border-width: 5px;
-    padding: 10px;
 }
-
-.menu-principal {
-    float: right;
-}
-
 .menu-principal > ul > li {
     display: list-item;
     padding: 8px;
@@ -27,15 +22,35 @@
     font-size: larger;
     height: 500px;
     background-color: rgba(120, 128, 128, 0.212);
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .parte-inferior { 
     font-size: larger;
     height: 500px;
+    padding-left: 80px;
+    padding-top: 50px;
     background-color: rgb(120, 128, 128, 0.212);
     border-top-width: 5px;
     border-top-style: dotted;
 }
 .barra-pesquisa {
-    background-color: aliceblue;
+    padding-left: 1250px;
+}
+.thumb1 {
+    float: left;
+    padding-right: 80px;
+}
+.thumb2 {
+    float: left;
+    padding-right: 80px;
+}
+.thumb3 {
+    float: left;
+    padding-right: 80px;
+}
+h3 { 
+    font-size: 30px;
 }
