@@ -9,26 +9,7 @@
     border-style: groove;
     border-width: 5px;
 }
-.caixa1 {
-    padding: 8px;
-    text-align: center;
-    width: 240px;
-    height: 20px;
-    border-style: dotted;
-    color: #47525E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: list-item;
-}
-.caixa2 {
-    padding: 8px;
-    text-align: center;
-    border-style: dotted;
-    color: #47525E;
-    width: 240px;
-    height: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: list-item;
-}
+
 .menu-principal > ul > a > li {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
