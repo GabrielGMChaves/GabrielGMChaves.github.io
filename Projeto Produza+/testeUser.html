@@ -5,6 +5,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <style>
             #content {
+                padding-bottom: 30px;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 color: #47525E;
                 background-color: rgb(235, 235, 235);
@@ -63,76 +64,81 @@
                 padding-top: 8px;
             }
             #sorrizo{
-                max-width: 72%;
+                max-width: 150px;
             }
             h1{
-                padding-left: 16px;  
+                padding-bottom: 84px;
                 padding-top: 16px;
+                padding-left: 16px;
+            }
+            #acessib{
+                border-width: 3px;
+                border-style: dotted;
+                padding-left: 64px; 
+                padding-top: 48px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+            #botaoAcessib{
+                max-height:4% ;
+                color:rgb(129, 129, 129);
+                background-color: rgb(160, 160, 160);
+                border-width: 3px;
+                border-style: solid;
+                text-align: center;
+            }
+            #user1{
+                padding-bottom: 100px;
+                padding-left: 64px;
+            }
+            #user2{
+               border-top-color: #47525E;;
+               border-top-width: 3px;
+               border-top-style: dotted;
+            }
+            #luca{
+                border-color: rgb(61, 61, 61);
+                border-width: 3px;
+                border-style: solid; 
+                max-width: 150px;
+                max-height: auto;
+            }
+            h4{
+                font-size: medium;
             }
             h2{
-                padding-top: 16px;
-                padding-left: 16px;  
+                text-align: center; 
+            }
+            p {
+                text-align: left;
+            }
+            #luquinha{
+                max-height: auto;
+                max-width: 30px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="row">
-                <div id="content" class="col-10">
-                    <h1>Página de cursos</h1>
-                    <h2>Em progresso</h2>
-                    <div class="thumbs">
-                        <div class="thumbcima">
-                        <div class="row">
-                            <element class="col-4 ">
-                                <img src="Thumb.png" class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png "class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                        </div>
-                        </div>
-                        <div class="thumbbaixo">
-                        <div class="row">
-                            <h3>Concluídos</h3>
-                            <element class="col-4">
-                                <img src="Thumb.png"class="img-fluid">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid">
-                                    <h3>Título do curso</h3>
-                        </element>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="sidebar" class="col-2">
+                <div id="content" class="col-12">
                     <a href="testePage.html" target="_self">
-                        Página Principal</a><br><br><br><br><br><br><br><br>
-                        <div id="acesss">
-                    <a href="testeAcessib.html" target="_self">
-                        Acessibilidade</a></div>
-                        <div id="vazio"> </div>
-                        <div id="users">
-                    <a href="testeUser.html" target="_self">
-                        Usuário</a></div>
-                    <a href="testeCursos.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
-                        Cursos Específicos</a>
-                    <a href="testeCursos.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
-                        Cursos Gerais</a><br>
-                    <a href="testeCursos.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
-                        Cursos Colaborativos</a><br><br>
+                        <---
+                    </a>
+                    <h1>Perfil de Usuário</h1>
+                    <div class="row">
+                    <div class="col-2" id="user1">
+                        <img src="Luca.jpg" class="img-fluid" id="luca">   
+                    </div>
+                    <div class="col-3" id="nome">
+                        <h3>Luca Cypriano Lopes</h3>
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus est eius corporis.</h4>
+                    </div>
+                    <div class="col-12" id="user2">
+                        <h2>Certificados<h2>
+                            <div class="row"><p><img src="smile.png" class="img-fluid" id="sorrizo">Legal</p>
+                                <p><img src="smile.png" class="img-fluid" id="sorrizo">Bacana</p></div><br>
+                    </div>
                 </div>
             </div>
             <div class="row">

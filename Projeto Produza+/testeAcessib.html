@@ -66,12 +66,25 @@
                 max-width: 72%;
             }
             h1{
-                padding-left: 16px;  
+                padding-bottom: 84px;
                 padding-top: 16px;
+                padding-left: 16px;
             }
-            h2{
-                padding-top: 16px;
-                padding-left: 16px;  
+            #acessib{
+                border-width: 3px;
+                border-style: dotted;
+                padding-left: 64px; 
+                padding-top: 48px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+            #botaoAcessib{
+                max-height:4% ;
+                color:rgb(129, 129, 129);
+                background-color: rgb(160, 160, 160);
+                border-width: 3px;
+                border-style: solid;
+                text-align: center;
             }
         </style>
     </head>
@@ -79,41 +92,22 @@
         <div class="container">
             <div class="row">
                 <div id="content" class="col-10">
-                    <h1>Página de cursos</h1>
-                    <h2>Em progresso</h2>
-                    <div class="thumbs">
-                        <div class="thumbcima">
-                        <div class="row">
-                            <element class="col-4 ">
-                                <img src="Thumb.png" class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png "class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid 2">
-                                    <h3>Título do curso</h3>
-                            </element>
-                        </div>
-                        </div>
-                        <div class="thumbbaixo">
-                        <div class="row">
-                            <h3>Concluídos</h3>
-                            <element class="col-4">
-                                <img src="Thumb.png"class="img-fluid">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid">
-                                    <h3>Título do curso</h3>
-                            </element>
-                            <element class="col-4">
-                                <img src="Thumb.png" class="img-fluid">
-                                    <h3>Título do curso</h3>
-                        </element>
-                        </div>
+                    <a href="testePage.html" target="_self">
+                        <---
+                    </a>
+                    <h1>Opções de Acessibilidade</h1>
+                    <div class="col-12" id="acessib">
+                        <input type="radio" name="opX" value="X">
+                        Opção X <br> <h4>Habilita a função X, que torna a página mais acessível para pessoas com X deficiência.</h4><br><br>
+                        <input type="radio" name="opY" value="Y">
+                        Opção Y <br> <h4>Habilita a função Y, que torna a página mais acessível para pessoas com Y deficiência.</h4><br><br>
+                        <input type="radio" name="opZ" value="Z">
+                        Opção Z <br> <h4>Habilita a função Z, que torna a página mais acessível para pessoas com Z deficiência.</h4><br><br>
+                        <div class="col-2 offset-10" id=botaoAcessib>
+                            <a href="testePage.html" target="_self">
+                                <p>Confirmar</p>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
