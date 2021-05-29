@@ -71,8 +71,9 @@
                 padding-left: 16px;
             }
             #acessib{
+                font-size: x-large;
                 border-width: 3px;
-                border-style: dotted;
+                border-style: solid;
                 padding-left: 64px; 
                 padding-top: 48px;
                 padding-bottom: 10px;
@@ -86,6 +87,20 @@
                 border-style: solid;
                 text-align: center;
             }
+            #upload{
+                text-align: center;
+                max-width: 50px;
+                max-height: auto;
+            }
+            #quadro{
+                border-width: 3px;
+                border-style: solid;
+                padding-left: 310px; 
+                padding-top: 200px;
+                padding-bottom: 200px;
+            }
+
+            
         </style>
     </head>
     <body>
@@ -95,17 +110,14 @@
                     <a href="testePage.html" target="_self">
                         <---
                     </a>
-                    <h1>Opções de Acessibilidade</h1>
+                    <h1>Upload de conteúdo</h1>
                     <div class="col-12" id="acessib">
-                        <input type="radio" name="opX" value="X">
-                        Opção X <br> <h4>Habilita a função X, que torna a página mais acessível para pessoas com X deficiência.</h4><br><br>
-                        <input type="radio" name="opY" value="Y">
-                        Opção Y <br> <h4>Habilita a função Y, que torna a página mais acessível para pessoas com Y deficiência.</h4><br><br>
-                        <input type="radio" name="opZ" value="Z">
-                        Opção Z <br> <h4>Habilita a função Z, que torna a página mais acessível para pessoas com Z deficiência.</h4><br><br>
+                        <p>Faça aqui o upload de conteúdo para a plataforma!</p><br>
+                        <div class="col-8" id="quadro">
+                        <img src="upload.png" class="img-fluid" id="upload"></div>
                         <div class="col-2 offset-10" id=botaoAcessib>
                             <a href="testePage.html" target="_self">
-                                <p>Confirmar</p>
+                                <h5>Confirmar</h5>
                             </a>      
                         </div>
                     </div>
