@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>Cursos Gerais</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+            </script>
+        <style>
+            #content {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(70,70,70);
+                background-color: rgb(235, 235, 235);
+            }
+            #sidebar {
+                color: rgb(70,70,70);
+                padding-top: 10px;
+                background-color: rgb(235, 235, 235);
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                border-style: solid;
+                border-width: 3px;
+                border-color: rgb(70,70,70);
+            }
+            a {
+                color: rgb(70,70,70);
+                font-weight: bold;
+                text-decoration: none;
+            }
+            #footer {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(70,70,70);
+                background-color: rgb(235, 235, 235);   
+            }
+            .thumbs {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(70,70,70);
+                padding-top: 16px; 
+                padding-bottom: 16px; 
+            }
+            .thumbcima{
+                padding-left: 16px;
+                padding-top: 16px;
+                padding-bottom: 16px; 
+            }
+            .thumbbaixo{
+                padding-left: 16px;
+                padding-top: 4px; 
+                padding-bottom: 16px; 
+            }
+            #acesss{
+                border-style: dotted;
+                border-width: 3px;
+                padding-top: 4px; 
+                padding-bottom: 4px; 
+            }
+            #users{
+                border-style: dotted;
+                border-width: 3px;
+                padding-top: 4px; 
+                padding-bottom: 4px; 
+            }
+            #vazio{
+                padding-top: 8px;
+            }
+            #sorrizo{
+                max-width: 72%;
+            }
+            h1{
+                padding-left: 16px;  
+                padding-top: 16px;
+            }
+            h2{
+                padding-top: 16px;
+                padding-left: 16px;  
+            }
+            #upload{
+                color: rgb(70,70,70);
+                text-align: right;
+            }
+            #goBack{
+                padding-top: 10px;
+                padding-left: 5px;
+            }
+            #marilia1{
+                max-height: 130px;
+                max-width: auto;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            #upBotao{
+                padding-top: 2px;
+                border-style: solid;
+                background-color:rgb(70,70,70);
+                max-height: 35px;
+                max-width: 190px;
+                text-align: center;
+            }
+            #upBotao > a {
+                color: rgb(235, 235, 235);
+            }
+            #casinha{
+                max-height: 40px;
+                float:left;
+            }
+            #logout{
+                max-height: 40px;
+                float:right;
+            }
+        </style>
+        <link rel = "icon" href = "bookCurso.png" type = "image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="content" class="col-10">
+                    <img src="volta.png" class="img-fluid" id="goBack" onclick="goBack()">
+                    <h1>Tela de Cursos</h1>
+                    <div class="thumbs">
+                        <div class="thumbcima">
+                        <div class="row">
+                            <element class="col-4 ">
+                                <img src="chocolate33.jpg" class="img-fluid 2">
+                                <h3>Cuidados na finalização</h3>
+                            </element>
+                            <element class="col-4">
+                                <img src="chocolate1.jpg"class="img-fluid">
+                                <h3>A linha de produção</h3>
+                            </element>
+                            <element class="col-4">
+                                <img src="chocolate2.jpg" class="img-fluid 2">
+                                <h3>Confeitando com sucesso</h3>
+                            </element>
+                        </div>
+                        <br><br>
+                        </div>
+                        <div class="thumbbaixo">
+                        <div class="row">
+                            <element class="col-4">
+                                <img src="chocolate44.jpg "class="img-fluid 2">
+                                <h3>Das fábricas às lojas</h3>
+                            </element>
+                            <element class="col-4">
+                                <img src="chocolate6.jpg" class="img-fluid">
+                                <h3>Como evitar desperdícios</h3>   
+                            </element>
+                            <element class="col-4">
+                                <img src="chocolate55.jpg" class="img-fluid">
+                                <h3>Saiba o ponto certo</h3>
+                        </element>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidebar" class="col-2">
+                    <a href="testePage.html" target="_self">
+                        <img src="home.png" id="casinha"></a>
+                    <a href="testeLogin.html" target="_self">
+                        <img src="logout.png" id="logout"></a>
+                        <br>
+                        <a href="testeUser.html" target="_self">
+                            <img src="marilia1.png" id="marilia1" class="img-fluid"></a>
+                        <br>
+                        <div id="acesss">
+                    <a href="testeUser.html" target="_self">
+                        Usuário</a></div>
+                        <div id="vazio"> </div>
+                        <div id="users">
+                    <a href="testeAcessib.html" target="_self">
+                       Acessibilidade</a></div>
+                       <div id="vazio"> </div>
+                       <div id="upBotao">
+                        <a href="testeUp.html" target="_self">
+                        <p>Upload</p></a></div><br>
+                    <a href="testeCursos.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
+                        Cursos Específicos</a>
+                    <a href="testeCursos.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
+                        Cursos Gerais</a><br>
+                    <a href="testeCollab.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
+                        Cursos Colaborativos</a><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div id="footer" class="col-12">
+                    Produza+ inc.®️
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
