@@ -3,35 +3,40 @@
         <title>Página Principal</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+            </script>
         <style>
             #content {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: #47525E;
+                color: rgb(70,70,70);
                 background-color: rgb(235, 235, 235);
             }
             #sidebar {
-                color: #47525E;
+                color: rgb(70,70,70);
                 padding-top: 10px;
                 background-color: rgb(235, 235, 235);
                 text-align: center;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 border-style: solid;
                 border-width: 3px;
-                border-color: #47525E;
+                border-color: rgb(70,70,70);
             }
             a {
-                color: #47525E;
+                color: rgb(70,70,70);
                 font-weight: bold;
                 text-decoration: none;
             }
             #footer {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: #47525E;
+                color: rgb(70,70,70);
                 background-color: rgb(235, 235, 235);   
             }
             .thumbs {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: #47525E;
+                color: rgb(70,70,70);
                 padding-top: 16px; 
                 padding-bottom: 16px; 
             }
@@ -79,13 +84,17 @@
                 padding-bottom: 10px;
                 padding-right: 10px;
             }
+            #botaoAcessib > a{
+                color: rgb(235, 235, 235);
+            }
             #botaoAcessib{
                 max-height:4% ;
                 color:rgb(129, 129, 129);
-                background-color: rgb(160, 160, 160);
+                background-color: rgb(70,70,70);
                 border-width: 3px;
                 border-style: solid;
                 text-align: center;
+                border-color:rgb(70,70,70);
             }
             #upload{
                 text-align: center;
@@ -99,16 +108,44 @@
                 padding-top: 200px;
                 padding-bottom: 200px;
             }
-
+            #goBack{
+                padding-top: 10px;
+                padding-left: 5px;
+            }
+            #marilia1{
+                max-height: 130px;
+                max-width: auto;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            #upBotao{
+                padding-top: 2px;
+                border-style: solid;
+                background-color:rgb(70,70,70);
+                max-height: 35px;
+                max-width: 190px;
+                text-align: center;
+            }
+            #upBotao > a {
+                color: rgb(235, 235, 235);
+            }
+            #casinha{
+                max-height: 40px;
+                float:left;
+            }
+            #logout{
+                max-height: 40px;
+                float:right;
+            }
             
         </style>
+        <link rel = "icon" href = "bookCurso.png" type = "image/x-icon">
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div id="content" class="col-10">
-                    <a href="testePage.html" target="_self">
-                        <---
+                    <img src="volta.png" class="img-fluid" id="goBack" onclick="goBack()">
                     </a>
                     <h1>Upload de conteúdo</h1>
                     <div class="col-12" id="acessib">
@@ -124,19 +161,26 @@
                 </div>
                 <div id="sidebar" class="col-2">
                     <a href="testePage.html" target="_self">
-                        Página Principal</a><br><br><br><br><br><br><br><br>
+                        <img src="home.png" id="casinha"></a>
+                    <a href="testeLogin.html" target="_self">
+                        <img src="logout.png" id="logout"></a>
+                        <br>
                         <div id="acesss">
-                    <a href="testeAcessib.html" target="_self">
-                        Acessibilidade</a></div>
-                        <div id="vazio"> </div>
-                        <div id="users">
                     <a href="testeUser.html" target="_self">
                         Usuário</a></div>
-                    <a href="testeCursos.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
+                        <div id="vazio"> </div>
+                        <div id="users">
+                    <a href="testeAcessib.html" target="_self">
+                       Acessibilidade</a></div>
+                       <div id="vazio"> </div>
+                       <div id="upBotao">
+                        <a href="testeUp.html" target="_self">
+                        <p>Upload</p></a></div><br>
+                    <a href="testeCursos.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Específicos</a>
-                    <a href="testeCursos.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
+                    <a href="testeCursos.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Gerais</a><br>
-                    <a href="testeCollab.html" target="_self"><img src="smile.png" class="img-fluid" id="sorrizo">
+                    <a href="testeCollab.html" target="_self"><img src="bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Colaborativos</a><br><br>
                 </div>
             </div>
