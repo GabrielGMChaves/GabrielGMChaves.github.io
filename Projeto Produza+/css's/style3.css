@@ -16,7 +16,7 @@ h5{
 #container{
     width: 100vw;
     height: 100vh;
-    background: url('main.jpg'); 
+    background: url("imgs/main.jpg"); 
     background-size: cover;
     margin: 0;
 }

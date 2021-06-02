@@ -1,0 +1,128 @@
+#content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(70,70,70);
+    background-color: rgb(235, 235, 235);
+}
+#sidebar {
+    color: rgb(70,70,70);
+    padding-top: 10px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(70,70,70);
+}
+a {
+    color: rgb(70,70,70);
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(70,70,70);
+    background-color: rgb(235, 235, 235);   
+}
+.thumbs {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(70,70,70);
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+}
+.thumbcima{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+}
+.thumbbaixo{
+    border-top-width: 3px;
+    border-top-style: dotted;
+    padding-left: 16px;
+    padding-top: 4px; 
+    padding-bottom: 16px; 
+}
+#acesss{
+    border-style: dotted;
+    border-width: 3px;
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+}
+#users{
+    border-style: dotted;
+    border-width: 3px;
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+}
+#vazio{
+    padding-top: 8px;
+}
+#sorrizo{
+    max-width: 72%;
+}
+h1{
+    padding-bottom: 84px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+#acessib{
+    font-size: x-large;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 64px; 
+    padding-top: 48px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#botaoAcessib > a{
+    color: rgb(235, 235, 235);
+}
+#botaoAcessib{
+    max-height:4% ;
+    color:rgb(129, 129, 129);
+    background-color: rgb(70,70,70);
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+    border-color:rgb(70,70,70);
+}
+#upload{
+    text-align: center;
+    max-width: 50px;
+    max-height: auto;
+}
+#quadro{
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 310px; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#goBack{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#marilia1{
+    max-height: 130px;
+    max-width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#upBotao{
+    padding-top: 2px;
+    border-style: solid;
+    background-color:rgb(70,70,70);
+    max-height: 35px;
+    max-width: 190px;
+    text-align: center;
+}
+#upBotao > a {
+    color: rgb(235, 235, 235);
+}
+#casinha{
+    max-height: 40px;
+    float:left;
+}
+#logout{
+    max-height: 40px;
+    float:right;
+}
