@@ -43,9 +43,11 @@ const init = () => {
         submitButton.classList.remove('loading');
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
-        submitButton.textContent = "Sent! :)";
+        submitButton.textContent = "Correto!";
+        window.location.href = "testePage.html";
     }
-
+//email: "eve.holt@reqres.in",
+//senha: "cityslicka",
     if(submitButton) {
         submitButton.addEventListener('click', (event) => {
             event.preventDefault();

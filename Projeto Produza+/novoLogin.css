@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: url("./public/imgs/main.jpg"); 
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container{
+    min-height: 400px;
+    width: 380px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__title{
+    margin-bottom: 32px;
+    color: #303030;  
+}
+.login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#information{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 5%; 
+    left: 73%;
+    color: black;
+}
+
+#logo{
+    text-align: center;
+    top: 5%;   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0); 
+    position: fixed; 
+    color: #303030;
+    left: 1%;
+}
+
+input{
+    font-size: 15px;
+    padding: 2%;
+}
+a{
+    color: #303030;
+    text-decoration: none;
+}
+.login__reset {
+    font-size: 14px;
+    font-weight: bold;
+    color: #303030;
+    text-decoration: none;
+} 
+.h3, h3{
+    font-size: 1.4rem;
+}
+.login__input-border{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background: linear-gradient(217deg, rgba(56, 25, 85, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(255, 0, 234, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(255, 251, 0, 0.8), rgba(0,0,255,0) 70.71%);
+    transition: .3s ease-in-out;
+}
+.login__input{
+    height: 48px;
+    width: 80%;
+    box-sizing: border-box;
+    border: unset;
+    outline: none;
+    padding-left: 8px;
+    font-size: 18px;
+}
+.login__submit{
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(120deg, rgba(56, 25, 85, 0.8), rgba(255, 0, 234, 0.8), rgba(255, 251, 0, 0.8));
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.login__input-border::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(217deg, rgba(56, 25, 85, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(255, 0, 234, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(255, 251, 0, 0.8), rgba(0,0,255,0) 70.71%);
+    transition: 0.3s ease-in-out;
+}
