@@ -1,8 +1,4 @@
-            body{
-              margin:0; 
-    
-            }
-            #content {
+#content {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 color: rgb(70,70,70);
                 background-color: rgb(235, 235, 235);
@@ -39,6 +35,8 @@
                 padding-bottom: 16px; 
             }
             .thumbbaixo{
+                border-top-width: 3px;
+                border-top-style: dotted;
                 padding-left: 16px;
                 padding-top: 4px; 
                 padding-bottom: 16px; 
@@ -62,12 +60,28 @@
                 max-width: 72%;
             }
             h1{
-                padding-left: 16px;  
+                padding-bottom: 84px;
                 padding-top: 16px;
+                padding-left: 16px;
             }
-            h2{
-                padding-top: 16px;
-                padding-left: 16px;  
+            #acessib{
+                border-width: 3px;
+                border-style: dotted;
+                padding-left: 64px; 
+                padding-top: 48px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+            #botaoAcessib > a{
+                color:rgb(235, 235, 235);
+            }
+            #botaoAcessib{
+                max-height:4% ;
+                color:rgb(235, 235, 235);
+                background-color: rgb(70,70,70);
+                border-width: 3px;
+                border-style: solid;
+                text-align: center;
             }
             #goBack{
                 padding-top: 10px;
@@ -97,4 +111,8 @@
             #logout{
                 max-height: 40px;
                 float:right;
+            }
+            .icones{
+                color:rgb(70,70,70);
+                font-size: 30px;
             }

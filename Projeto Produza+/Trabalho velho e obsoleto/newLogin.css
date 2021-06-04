@@ -1,0 +1,83 @@
+body {
+    font-family: "Lato", sans-serif;     
+    width: 100vw;
+    height: auto;
+    background: url("./public/imgs/main.jpg"); 
+    background-size: cover;
+    margin: 0;
+}
+.main-head{
+    height: 190px;
+    background: #FFF;
+}
+.sidenav {
+    height: 100%;
+    background-color: rgba(54, 31, 90, 0.87);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: rgba(54, 31, 90, 0.87) !important;
+    color: #fff;
+}
+label{
+    font-size: large;
+    padding-bottom: 3px;   
+}
+.login-form{
+    padding-left: 10px;
+    background-color: rgba(54, 31, 90, 0.664);
+    padding:2%;
+    border-radius: 10px;
+}

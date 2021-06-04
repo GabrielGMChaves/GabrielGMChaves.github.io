@@ -3,33 +3,34 @@
         <title>Cursos Gerais</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script>
             function goBack() {
               window.history.back();
             }
             </script>
-            <link rel="stylesheet" href="./css's/styleCursos.css">
-        <link rel = "icon" href = "css's/imgs/bookCurso.png" type = "image/x-icon">
+            <link rel="stylesheet" href="./public/styleCursos.css">
+        <link rel = "icon" href = "public/imgs/bookCurso.png" type = "image/x-icon">
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div id="content" class="col-10">
-                    <img src="css's/imgs/volta.png" class="img-fluid" id="goBack" onclick="goBack()">
+                    <i class="fas fa-arrow-left icones" id="goBack" onclick="history.go(-1)"></i>
                     <h1>Tela de Cursos</h1>
                     <div class="thumbs">
                         <div class="thumbcima">
                         <div class="row">
                             <element class="col-4 ">
-                                <img src="css's/imgs/chocolate2.jpg" class="img-fluid 2">
+                                <img src="public/imgs/chocolate2.jpg" class="img-fluid 2">
                                 <h3>Confeitando com sucesso</h3>
                             </element>
                             <element class="col-4">
-                                <img src="css's/imgs/chocolate44.jpg "class="img-fluid 2">
+                                <img src="public/imgs/chocolate44.jpg "class="img-fluid 2">
                                 <h3>Das fábricas às lojas</h3>
                             </element>
                             <element class="col-4">
-                                <img src="css's/imgs/chocolate33.jpg" class="img-fluid 2">
+                                <img src="public/imgs/chocolate33.jpg" class="img-fluid 2">
                                 <h3>Cuidados na finalização</h3>
                             </element>
                         </div>
@@ -38,15 +39,15 @@
                         <div class="thumbbaixo">
                         <div class="row">
                             <element class="col-4">
-                                <img src="css's/imgs/chocolate1.jpg"class="img-fluid">
+                                <img src="public/imgs/chocolate1.jpg"class="img-fluid">
                                 <h3>A linha de produção</h3>
                             </element>
                             <element class="col-4">
-                                <img src="css's/imgs/chocolate55.jpg" class="img-fluid">
+                                <img src="public/imgs/chocolate55.jpg" class="img-fluid">
                                 <h3>Saiba o ponto certo</h3>
                             </element>
                             <element class="col-4">
-                                <img src="css's/imgs/chocolate6.jpg" class="img-fluid">
+                                <img src="public/imgs/chocolate6.jpg" class="img-fluid">
                                 <h3>Como evitar desperdícios</h3>
                         </element>
                         </div>
@@ -55,12 +56,12 @@
                 </div>
                 <div id="sidebar" class="col-2">
                     <a href="testePage.html" target="_self">
-                        <img src="css's/imgs/home.png" id="casinha"></a>
+                        <i class="fas fa-home icones" style="float: left"></i></a>
                     <a href="testeLogin.html" target="_self">
-                        <img src="css's/imgs/logout.png" id="logout"></a>
+                        <i class="fas fa-sign-out-alt icones" style="float: right"></i></a>
                         <br>
                         <a href="testeUser.html" target="_self">
-                            <img src="css's/imgs/marilia1.png" id="marilia1" class="img-fluid"></a>
+                            <img src="public/imgs/marilia1.png" id="marilia1" class="img-fluid"></a>
                         <br>
                         <div id="acesss">
                     <a href="testeUser.html" target="_self">
@@ -73,11 +74,11 @@
                        <div id="upBotao">
                         <a href="testeUp.html" target="_self">
                         <p>Upload</p></a></div><br>
-                    <a href="testeCursos.html" target="_self"><img src="css's/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
+                    <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Específicos</a>
-                    <a href="testeCursos.html" target="_self"><img src="css's/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
+                    <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Gerais</a><br>
-                    <a href="testeCollab.html" target="_self"><img src="css's/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
+                    <a href="testeCollab.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
                         Cursos Colaborativos</a><br><br>
                 </div>
             </div>
