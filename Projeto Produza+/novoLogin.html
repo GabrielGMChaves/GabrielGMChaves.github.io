@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUZA+ main</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel = "icon" href = "public/imgs/bookCurso.png" type = "image/x-icon">
+    <script defer src="scripts.js"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        h1{
+            color: #303030;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h5{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 40px;
+            font-size: 60px;
+        }
+        .login{
+            width: 100vw;
+            height: 100vh;
+            background: url("./public/imgs/main.jpg"); 
+            background-size: cover;
+            margin: 0;
+        }
+
+        .login__container{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: whitesmoke;
+            position: fixed;
+            top:45%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            border-radius: 10px;
+            color: white;
+            width:300px;
+            max-width:100%;
+            margin:50px auto;
+        }
+
+        #enter{
+            color: white;
+            background-color: rgba(54, 31, 90, 0.87);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            padding: 6px;
+        }
+        #information{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0);
+            position: fixed;
+            top: 5%; 
+            left: 73%;
+            color: black;
+        }
+
+        #logo{
+            text-align: center;
+            top: 5%;   
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0); 
+            position: fixed; 
+            color: #303030;
+            left: 1%;
+        }
+
+        input{
+            font-size: 15px;
+            padding: 2%;
+        }
+        a{
+            color: #303030;
+            text-decoration: none;
+        }
+        .login__reset {
+            font-weight: bold;
+            color: #303030;
+        } 
+        .h3, h3{
+            font-size: 1.4rem;
+        }
+        .login__input-border{
+            padding: 0px;
+        }
+        .login__submit{
+            height: 30px;
+            width: 30%;
+            outline: none;
+            position: relative;
+            background: linear-gradient(217deg, rgba(56, 25, 85, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(255, 0, 234, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(255, 251, 0, 0.8), rgba(0,0,255,0) 70.71%);
+            background-size: 200%;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: unset;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+    </style>
+    </head>
+    <body>
+        <main class="login">
+            <div id="logo" class="col-md-6"><h5>Produza+</h5></div>
+            <div id="information" class="col-md-12 form-group">
+                <a href="testePage.html" target="_self">
+                    <h3><i class="far fa-address-card"></i> Quem somos</h3></a>
+                <a href="testePage.html" target="_self">
+                    <h3><i class="fas fa-desktop"></i> Serviços</i></h3></a>
+                <a href="testePage.html" target="_self">
+                    <h3><i class="far fa-comments"></i> Contato</h3></a>                      
+            </div>
+            <div class="login__container">
+                <h1 class="login__title">Login</h1><br>
+                <form class="login__form col-md-12 form-group">
+                    <input class="login__input" type="email" placeholder="E-mail"/><br>
+                    <span class="login__input-border"></span><br>
+                    <input class="login__input" type="password" placeholder="Senha"/><br>
+                    <span class="login__input-border"></span><br>
+                    <button class="login__submit">Login</button><br><br>
+                    <a class="login__reset" href="#">Esqueceu sua senha?</a>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
+    
