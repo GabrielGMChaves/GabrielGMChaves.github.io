@@ -44,7 +44,7 @@ const init = () => {
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
         submitButton.textContent = "Correto!";
-        window.location.href = "testePage.html";
+
     }
 //email: "eve.holt@reqres.in",
 //senha: "cityslicka",
@@ -52,7 +52,7 @@ const init = () => {
         submitButton.addEventListener('click', (event) => {
             event.preventDefault();
 
-            submitButton.textContent = "Loading...";
+            submitButton.textContent = "Carregando...";
 
             fetch('https://reqres.in/api/login', {
                 method: 'POST',

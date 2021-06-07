@@ -8,33 +8,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./public/style3.css">
     <link rel = "icon" href = "public/imgs/bookCurso.png" type = "image/x-icon">
-    <script defer src="script.js"></script>
+    <script defer src="scripts.js"></script>
+    <link href="testeLogin.css" rel="stylesheet">
+    </head>
 </head>
 <body>
-    <div id="container">
-        <div id="access" class="col-md-12 form-group">
-            <h1>Login</h1>
-            <input type="text" placeholder="User"class="form-control" >
-            <br><br>
-            <input type="password" placeholder="Password"class="form-control">
-            <br><br>
-            <a href="testePage.html" target="_self">
-                <button id="enter">Enter</button>
-            </a>
+    <main class="login">
+        <div class="login__container container">
+            <div class="col-md-12 row align-items-start" id="logo">
+                <img src="./public/imgs/gabrielmini.png">
+            </div>  
+            <form class="col login__form col-md-12 row align-items-center">
+                <input class="login__input" type="email" placeholder="E-mail"/>
+                <span class="login__input-border"></span>
+                <input class="login__input" type="password" placeholder="Senha"/>
+                <span class="login__input-border"></span>
+                <button class="login__submit">Login</button>
+                <a class="login__reset" href="#"><h2>Esqueceu sua senha?</h2></a>
+            </form>
+            <div id="information" class="col-md-12 row align-items-end">
+                <a href="testeCtt.html" target="_self">
+                    <h3>Quem somos | Contato | Serviços</h3></a>                   
+            </div>
         </div>
-        <div id="information" class="col-md-12 form-group">
-            <a href="testePage.html" target="_self">
-                <h3><i class="far fa-address-card"></i> Quem somos</h3></a>
-            <a href="testePage.html" target="_self">
-                <h3><i class="fas fa-desktop"></i> Serviços</i></h3></a>
-            <a href="testePage.html" target="_self">
-                <h3><i class="far fa-comments"></i> Contato</h3></a>                      
-        </div>
-        <div id="logo" class="col-md-6">
-            <h5>Produza+</h5>                      
-        </div>
-    </div>
+    </main>
 </body>
 </html>
+    
