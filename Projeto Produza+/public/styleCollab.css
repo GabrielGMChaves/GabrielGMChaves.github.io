@@ -12,6 +12,7 @@
                 border-style: solid;
                 border-width: 3px;
                 border-color: rgb(70,70,70);
+                font-size: 1vw;
             }
             a {
                 color: rgb(70,70,70);
@@ -80,11 +81,11 @@
                 padding-top: 10px;
             }
             #upBotao{
-                padding-top: 2px;
+                padding-top: 4px; 
+                padding-bottom: 4px; 
+                min-height: 4%;
                 border-style: solid;
                 background-color:rgb(70,70,70);
-                max-height: 35px;
-                max-width: 190px;
                 text-align: center;
             }
             #upBotao > a {
@@ -102,6 +103,9 @@
                 color:rgb(70,70,70);
                 font-size: 30px;
             }
-.icones:hover{
-    cursor: pointer;
-}
+            .icones:hover{
+                cursor: pointer;
+            }
+            .tamanho-responsivo{
+                font-size: 1vw;
+            }
