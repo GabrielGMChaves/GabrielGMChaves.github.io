@@ -147,3 +147,6 @@ a{
 .login__input-border.error::after {
     background: var(--input-error);
 }
+.icones:hover{
+    cursor: pointer;
+}

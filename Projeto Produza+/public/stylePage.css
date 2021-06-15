@@ -92,3 +92,7 @@ h2{
     color:rgb(70,70,70);
     font-size: 30px;
 }
+.icones:hover{
+    cursor: pointer;
+}
+
