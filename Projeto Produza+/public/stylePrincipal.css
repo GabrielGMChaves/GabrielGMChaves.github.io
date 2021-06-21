@@ -1,30 +1,24 @@
-<<<<<<< Updated upstream
-:root{
-    --input-error: rgb(255, 71, 71);
-    --input-success: green;
-    --button-linear: linear-gradient(120deg, rgba(56, 25, 85, 0.8), rgba(255, 0, 234, 0.8), rgba(255, 251, 0, 0.8));
-    --button-disabled: #acacac;
-    --white: #fff;
-    --black: #303030;
-    --gray: #929292;
-    --light-gray: #cfcfcf;
-    --border-height: 1px;
-}
 
-body{
-=======
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
   }
   
   .row {
->>>>>>> Stashed changes
     margin: 0;
   }
   
+  #login-area
+  {
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
   .container {
-    padding: 70px 0;
+    margin: auto;
+    padding: 10px;
   }
   
   p, li {
@@ -34,16 +28,15 @@ body {
   
   /* Barra de navegação */
   header, .navbar {
-    background-image: linear-gradient(to right, rgb(250, 245, 245) , black);
+    background-image: linear-gradient(to right, rgba(250, 245, 245, 0.5) , rgba(0, 0, 0, 0.5));
   }
   
   #nav-container {
     padding-top: 0;
     padding-bottom: 0;
   }
-  
   #logo {
-    width: 120px;
+    width: auto;
     height: 50px;
   }
   
@@ -85,6 +78,11 @@ body {
   #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color:rgba(70,70,70,0.34);
+    max-width: fit-content;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   }
   
   #mainSlider .carousel-caption p {
@@ -92,6 +90,11 @@ body {
     font-weight: 300;
     margin-bottom: 100px;
     color: #FFF;
+    background-color:rgba(70,70,70,0.34);
+    max-width: fit-content;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   }
   
   .main-btn {
@@ -300,17 +303,6 @@ body {
   
   #news-area p {
     font-size: 18px;
-<<<<<<< Updated upstream
-}
-.login__submit{
-    height: 48px;
-    width: 100%;
-    outline: none;
-    background: linear-gradient(120deg, rgba(56, 25, 85, 0.8), rgba(255, 0, 234, 0.8), rgba(255, 251, 0, 0.8));
-    background-size: 200%;
-    margin-bottom: 32px;
-    color: rgb(255, 255, 255);
-=======
     margin-bottom: 40px;
   }
   
@@ -405,53 +397,11 @@ body {
   }
   
   .contact-box p {
->>>>>>> Stashed changes
     font-size: 16px;
   }
   
   .contact-tile {
     font-weight: bold;
-<<<<<<< Updated upstream
-    border: unset;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-}
-.login__submit:hover {
-    background-position: right;
-}
-.login__submit:disabled{
-    background: var(--button-disabled);
-    cursor: not-allowed;
-}
-.login__submit.error{
-    background: var(--input-error);
-}
-.login__submit.success{
-    background: var(--input-success);
-}
-.login__input:focus + .login__input-border::after {
-    width: 100%;
-}
-.login__input-border::after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 0;
-    background: linear-gradient(217deg, rgba(56, 25, 85, 0.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(255, 0, 234, 0.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(255, 251, 0, 0.8), rgba(0,0,255,0) 70.71%);
-    transition: 0.3s ease-in-out;
-}
-.login__input-border.error {
-    background: var(--input-error);
-}
-.login__input-border.error::after {
-    background: var(--input-error);
-}
-=======
-    color: #3EC1D5;
-  }
   
   #msg-box p {
     font-size: 22px;
@@ -670,4 +620,3 @@ body {
     }
   
   }
->>>>>>> Stashed changes
