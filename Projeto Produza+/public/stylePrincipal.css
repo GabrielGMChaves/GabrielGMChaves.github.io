@@ -7,28 +7,20 @@ body {
   .row {
     margin: 0;
   }
-  
-  #login-area
-  {
-    align-items: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
 
   .container {
     margin: auto;
-    padding: 10px;
+    padding: 70px;
   }
   
   p, li {
     color: #444;
-    font-size: 14px;
+    font-size: 17px;
   }
   
   /* Barra de navegação */
   header, .navbar {
-    background-image: linear-gradient(to right, rgba(250, 245, 245, 0.5) , rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(to right, rgba(235, 204, 253, 0.5) , rgba(0, 0, 0, 0.5));
   }
   
   #nav-container {
@@ -61,6 +53,17 @@ body {
     border-bottom: 3px solid #FFF;
   }
   
+  #botaofeio
+  {
+    border-color: rgba(70,70,70,0.5);
+    background-color: rgba(70,70,70,0.5);
+    margin-top: 12px;
+    font-size: 1rem;
+    max-height: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
   /* Slider */
   
   .container-fluid {
@@ -78,7 +81,6 @@ body {
   #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
-    background-color:rgba(70,70,70,0.34);
     max-width: fit-content;
     margin: auto;
     width: 50%;
@@ -90,7 +92,6 @@ body {
     font-weight: 300;
     margin-bottom: 100px;
     color: #FFF;
-    background-color:rgba(70,70,70,0.34);
     max-width: fit-content;
     margin: auto;
     width: 50%;
@@ -161,6 +162,10 @@ body {
   #about-list i {
     color: #65DAF9;
     margin-right: 15px;
+  }
+  #imagemLogo
+  {
+    margin-bottom: 50px;
   }
   
   /* Serviços */
