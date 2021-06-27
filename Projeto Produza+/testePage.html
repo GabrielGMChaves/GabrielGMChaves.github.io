@@ -1,93 +1,117 @@
 <html>
-    <head>
-        <title>Página Principal</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <script>
-            function goBack() {
-              window.history.back();
-            }
-            </script>
-            <link rel="stylesheet" href="./public/stylePage.css">
-        <link rel = "icon" href = "public/imgs/bookCurso.png" type = "image/x-icon">
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div id="content" class="col-10">
-                    <i class="fas fa-arrow-left icones" id="goBack" onclick="history.go(-1)"></i>
-                    <h1>Página Principal</h1>
-                    <h2>Em progresso</h2>
-                    <div class="thumbs">
-                        <div class="thumbcima">
+
+<head>
+    <title>Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <link rel="stylesheet" href="public/stylePage.css">
+    <link rel="icon" href="public/imgs/bookCurso.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="content" class="col-10">
+                <i class="fas fa-arrow-left icones" id="goBack" onclick="history.go(-1)"></i>
+                <h1>Página Principal</h1>
+                <h2>Em progresso</h2>
+                <div class="thumbs">
+                    <div class="thumbcima">
                         <div class="row">
                             <element class="col-4 ">
                                 <img src="public/imgs/chocolate2.jpg" class="img-fluid 2">
-                                    <h3>Confeitando com sucesso</h3>
+                                <h3>Confeitando com sucesso</h3>
                             </element>
                             <element class="col-4">
-                                <img src="public/imgs/chocolate1.jpg "class="img-fluid 2">
-                                    <h3>A linha de produção</h3>
+                                <img src="public/imgs/chocolate1.jpg " class="img-fluid 2">
+                                <h3>A linha de produção</h3>
                             </element>
                             <element class="col-4">
                                 <img src="public/imgs/chocolate6.jpg" class="img-fluid 2">
-                                    <h3>Como evitar desperdícios</h3>
+                                <h3>Como evitar desperdícios</h3>
                             </element>
                         </div>
-                        </div>
-                        <div class="thumbbaixo">
+                    </div>
+                    <div class="thumbbaixo">
                         <div class="row">
                             <h3>Concluídos</h3>
                             <element class="col-4">
-                                <img src="public/imgs/chocolate55.jpg"class="img-fluid">
-                                    <h3>Saiba o ponto certo</h3>
+                                <img src="public/imgs/chocolate55.jpg" class="img-fluid">
+                                <h3>Saiba o ponto certo</h3>
                             </element>
                             <element class="col-4">
                                 <img src="public/imgs/chocolate33.jpg" class="img-fluid">
-                                    <h3>Cuidados na finalização</h3>
+                                <h3>Cuidados na finalização</h3>
                             </element>
                             <element class="col-4">
                                 <img src="public/imgs/chocolate4.jpg" class="img-fluid">
-                                    <h3>Das fábricas às lojas</h3>
-                        </element>
-                        </div>
+                                <h3>Das fábricas às lojas</h3>
+                            </element>
                         </div>
                     </div>
                 </div>
-                <div id="sidebar" class="col-2">
-                    <a href="testePage.html" target="_self">
-                        <i class="fas fa-home icones" style="float: left"></i></a>
-                    <a href="testeLogin.html" target="_self">
-                        <i class="fas fa-sign-out-alt icones" style="float: right"></i></a>
-                        <br>
-                    <a href="testeUser.html" target="_self">
-                            <img src="public/imgs/marilia1.png" id="marilia1" class="img-fluid"></a>
-                        <br>
-                        <div id="acesss">
-                    <a href="testeUser.html" target="_self">
-                        Usuário</a></div>
-                        <div id="vazio"> </div>
-                        <div id="users">
-                    <a href="testeAcessib.html" target="_self">
-                       Acessibilidade</a></div>
-                       <div id="vazio"> </div>
-                       <div id="upBotao">
-                        <a href="testeUp.html" target="_self">
-                        <p>Upload</p></a></div><br>
-                    <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
-                        Cursos Específicos</a>
-                    <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
-                        Cursos Gerais</a><br>
-                    <a href="testeCollab.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid" id="sorrizo">
-                        Cursos Colaborativos</a><br><br>
-                </div>
             </div>
-            <div class="row">
-                <div id="footer" class="col-12">
-                    Produza+ inc.®️
+            <div id="sidebar" class="col-2">
+                <a href="testePage.html" target="_self">
+                    <i class="fas fa-home icones" style="float: left"></i></a>
+                <a href="testeLogin.html" target="_self">
+                    <i class="fas fa-sign-out-alt icones" style="float: right"></i></a>
+                <br>
+                <a href="testeUser.html" target="_self">
+                    <img src="public/imgs/marilia1.png" id="marilia1" class="img-fluid"></a>
+                <br>
+                <div id="users">
+                    <a href="testeUser.html" target="_self">
+                        Usuário</a>
                 </div>
+                <div id="vazio"> </div>
+                <div id="acesss">
+                    <a href="testeAcessib.html" target="_self">
+                        Acessibilidade</a>
+                </div>
+                <div id="vazio"> </div>
+                <div id="contrasteBotao">
+                    <button class="btn_ContrasteOn" id="altoContraste" onclick="contrasteOn()" ><i class="fas fa-file-image icones"></i>
+                    <button class="btn_ContrasteOff" id="baixoContraste" onclick="contrasteOff()"><i class="far fa-file-image icones"></i>
+                </div>
+                <div id="vazio"> </div>
+                <div id="upBotao">
+                    <a href="testeUp.html" target="_self">
+                        Upload</a>
+                </div>
+                <div id="vazio"> </div>
+                <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid"
+                        id="sorrizo">
+                    Cursos Específicos</a>
+                <div id="vazio"> </div>
+                <a href="testeCursos.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid"
+                        id="sorrizo">
+                    Cursos Gerais</a><br>
+                <div id="vazio"> </div>
+                <a href="testeCollab.html" target="_self"><img src="public/imgs/bookCurso.png" class="img-fluid"
+                        id="sorrizo">
+                    Cursos Colaborativos</a>
             </div>
         </div>
-    </body>
+        <div class="row">
+            <div id="footer" class="col-12">
+                Produza+ inc.®️
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts do projeto -->
+    <script src="js/script-page.js"></script>
+</body>
+
 </html>

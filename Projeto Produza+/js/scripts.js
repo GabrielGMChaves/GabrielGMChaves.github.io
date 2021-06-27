@@ -109,7 +109,7 @@ $(document).ready(function () {
 
   const inputEmail = document.querySelector('input[type="email"]');
   const inputPassword = document.querySelector('input[type="password"]');
-  const submitButton = document.querySelector('.main-btn');
+  const submitButton = document.querySelector('.login__submit');
 
   inputEmail.addEventListener('input', validateEmail);
   inputPassword.addEventListener('input', validatePassowrd);
@@ -156,6 +156,7 @@ $(document).ready(function () {
         errorHandler();
       })
     })
-  }  
+  }
+
 
 });

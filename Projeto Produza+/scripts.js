@@ -75,6 +75,9 @@ const init = () => {
             })
         })
     }
-}
 
+    document.getElementById("btn-corOff").addEventListener("click", function () {
+        document.querySelector("body").setAttribute("class", "altoContraste");
+    })
+}
 window.onload = init;
