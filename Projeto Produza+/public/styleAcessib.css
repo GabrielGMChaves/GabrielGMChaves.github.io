@@ -1,4 +1,4 @@
-#content {
+            #content {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 color: rgb(70,70,70);
                 background-color: rgb(235, 235, 235);
@@ -94,15 +94,10 @@
                 padding-top: 10px;
             }
             #upBotao{
-                padding-top: 2px;
-                border-style: solid;
-                background-color:rgb(70,70,70);
-                max-height: 35px;
-                max-width: 190px;
-                text-align: center;
-            }
-            #upBotao > a {
-                color: rgb(235, 235, 235);
+                border-style: dotted;
+                border-width: 3px;
+                padding-top: 4px; 
+                padding-bottom: 4px; 
             }
             #casinha{
                 max-height: 40px;
@@ -115,4 +110,19 @@
             .icones{
                 color:rgb(70,70,70);
                 font-size: 30px;
+            }
+            #altoContraste{
+                position: relative;
+                left: -20px;
+            }
+            #baixoContraste{
+                position: relative;
+                right: -20px;
+            }
+            #contrasteBotao{
+                border-style: dotted;
+                border-width: 3px;
+                padding-top: 4px; 
+                padding-bottom: 4px; 
+            
             }
