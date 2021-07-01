@@ -13,21 +13,25 @@ body {
   
   p, li {
     color: #444;
-    font-size: 14px;
+    font-size: 1.1rem;
   }
   
   /* Barra de navegação */
   header, .navbar {
-    background-image: linear-gradient(to right, rgb(250, 245, 245) , black);
+    background-image: linear-gradient(to right, rgba(167, 167, 167, 0.39) , rgba(0, 0, 0, 0.39));
   }
   
   #nav-container {
     padding-top: 0;
     padding-bottom: 0;
   }
-  
+  #loginbotao{
+    margin: 12px;
+    background-color: #303030;
+    border-color: #303030;
+  }
   #logo {
-    width: 120px;
+    width: auto;
     height: 50px;
   }
   
@@ -101,6 +105,9 @@ body {
     background-color: #65DAF9;
   }
   
+  #fotoscarousel{
+    filter: brightness(50%);
+  }
   /* Sobre a empresa */
   
   #about-area {
