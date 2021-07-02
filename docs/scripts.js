@@ -44,7 +44,7 @@ const init = () => {
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
         submitButton.textContent = "Correto!";
-
+        window.location.href = "https://gabrielgmchaves.github.io/testePage.html";
     }
 //email: "eve.holt@reqres.in",
 //senha: "cityslicka",
