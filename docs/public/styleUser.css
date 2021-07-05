@@ -139,3 +139,6 @@ h5{
 .icones:hover{
     cursor: pointer;
 }
+.tamanho-responsivo {
+    font-size: 1vw;
+}

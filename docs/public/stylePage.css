@@ -12,7 +12,6 @@
     border-style: solid;
     border-width: 3px;
     border-color: rgb(70,70,70);
-    font-size: 1rem;
 }
 a {
     color: rgb(70,70,70);
@@ -105,4 +104,7 @@ h2{
 }
 .icones:hover{
     cursor: pointer;
+}
+.tamanho-responsivo {
+    font-size: 1vw;
 }
