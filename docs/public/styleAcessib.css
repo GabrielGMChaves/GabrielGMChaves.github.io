@@ -126,3 +126,6 @@
                 padding-bottom: 4px; 
             
             }
+            .icones:hover{
+                cursor: pointer;
+            }
