@@ -143,3 +143,14 @@ h1{
 .tamanho-responsivo {
     font-size: 1vw;
 }
+#upBotao{
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    min-height: 4%;
+    border-style: solid;
+    background-color:rgb(70,70,70);
+    text-align: center;
+}
+#upBotao > a {
+    color: rgb(235, 235, 235);
+}
