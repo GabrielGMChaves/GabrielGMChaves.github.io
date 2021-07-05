@@ -12,6 +12,7 @@
     border-style: solid;
     border-width: 3px;
     border-color: rgb(70,70,70);
+    font-size: 1rem;
 }
 a {
     color: rgb(70,70,70);
@@ -101,4 +102,7 @@ h2{
     padding-top: 4px; 
     padding-bottom: 4px; 
 
+}
+.icones:hover{
+    cursor: pointer;
 }
