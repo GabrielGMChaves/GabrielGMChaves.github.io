@@ -5,3 +5,6 @@ Qualquer tipo de contribuição é bem-vinda!
 Obrigado por ler! Ficamos muito felizes!
 Link do site
 https://gabrielgmchaves.github.io/
+Quando for efetuar login no site, usar as seguintes credenciais (credenciais da API que utilizamos)
+email: eve.holt@reqres.in
+senha: cityslicka
